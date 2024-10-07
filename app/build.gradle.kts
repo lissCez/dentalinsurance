@@ -7,6 +7,10 @@ android {
     namespace = "fiap.tds.dental_insurance"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "fiap.tds.dental_insurance"
         minSdk = 24
