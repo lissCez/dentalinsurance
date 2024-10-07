@@ -148,6 +148,6 @@ O projeto **Dental Insurance** oferece uma solução moderna e robusta para a ge
 
 [https://youtu.be/_pTABsX7wJE?si=QC-cvsxUiuW4Zyz8](https://youtu.be/_pTABsX7wJE?si=QC-cvsxUiuW4Zyz8)
 
-  ## Teste de Funcionamento do APP
+  ## Protótipo da tela de Login em Funcionamento
 
   ![Teste](app/sampledata/testeTela.gif)
