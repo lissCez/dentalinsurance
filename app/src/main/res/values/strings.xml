@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">dental-insurance</string>
+    <string name="login">Login</string>
+    <string name="entrar">Entrar</string>
+    <string name="digite_sua_senha">Digite sua senha...</string>
+    <string name="digite_suas_cr_denciais">Digite suas crêdenciais...</string>
+    <string name="textview">TextView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
