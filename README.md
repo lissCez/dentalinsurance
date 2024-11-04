@@ -141,12 +141,13 @@ O projeto **Dental Insurance** oferece uma solução moderna e robusta para a ge
 ## Links
 
 - Figma - Wireframes da solução mobile:  
+
 [https://www.figma.com/proto/uNhAX2GxrdUcTTEWqlcRrb/Challenge-Odontoprev?node-id=0-1&t=0ataD37zdxRmms7i-1](https://www.figma.com/proto/uNhAX2GxrdUcTTEWqlcRrb/Challenge-Odontoprev?node-id=0-1&t=0ataD37zdxRmms7i-1)
 
-- Vídeo - Solução
+- Vídeo - Solução:
 
-  [https://www.youtube.com/watch?v=OHVeFk5sXEg]
+[https://youtu.be/_pTABsX7wJE?si=QC-cvsxUiuW4Zyz8](https://youtu.be/_pTABsX7wJE?si=QC-cvsxUiuW4Zyz8)
 
-  ## Teste de Funcionamento do APP
+  ## Protótipo da tela de Login em Funcionamento
 
   ![Teste](app/sampledata/testeTela.gif)
