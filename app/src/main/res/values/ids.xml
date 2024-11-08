@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvPatientName" type="id" />
+    <item name="tvPatientAge" type="id" />
+    <item name="tvPatientSexo" type="id" />
+    <item name="tvPatientCityOfBirth" type="id" />
+    <item name="rvPacientes" type="id" />
+    <item name="drawerLayout" type="id" />
+    <item name="navView" type="id" />
+    <item name="menuIcon" type="id" />
+    <item name="navProfile" type="id" />
+    <item name="navCalendar" type="id" />
+    <item name="navPatients" type="id" />
+    <item name="navFAQ" type="id" />
+    <item name="navConsciousness" type="id" />
+    <item name="navSettings" type="id" />
+    <item name="navLogout" type="id" />
+</resources>
