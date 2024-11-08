@@ -1,5 +1,6 @@
 package fiap.tds.dental_insurance
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
@@ -24,6 +25,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var toolbar: Toolbar
     private lateinit var menuIcon: AppCompatImageView
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -56,7 +58,7 @@ class MenuActivity : AppCompatActivity() {
                     Toast.makeText(this, "Tela de Perguntas Frequentes será criada em breve", Toast.LENGTH_SHORT).show()
                 }
                 R.id.navConsciousness -> {
-                    Toast.makeText(this, "Tela Conscientize-se será criada em breve", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Tela Conscientize-se/Blog será criada em breve", Toast.LENGTH_SHORT).show()
                 }
                 R.id.navSettings -> {
                     Toast.makeText(this, "Tela de Configurações será criada em breve", Toast.LENGTH_SHORT).show()

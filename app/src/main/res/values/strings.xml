@@ -57,4 +57,15 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="menu">Menu</string>
+    <string name="FAQ" />
+    <string name="Blog">Blog</string>
+    <string name="faq">FAQ</string>
+    <string name="AboutUs" />
+    <string name="aboutus">About Us</string>
+    <string name="Configura_c_oes">Configurações</string>
+    <string name="perfil">Perfil</string>
+    <string name="endere_o_rua_penha_189_01640_100">Endereço Rua Penha - 189, 01640-100</string>
+    <string name="tel_11_9_1234_5678">Tel (11) 9 1234-5678</string>
+    <string name="email_odonto_14_outlook_com_br">Email Odonto.14@outlook.com.br</string>
+    <string name="cnpj_123_4567">cnpj .. ... 123 / 4567 ..</string>
 </resources>
