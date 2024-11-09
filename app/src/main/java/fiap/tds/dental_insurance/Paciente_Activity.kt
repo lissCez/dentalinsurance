@@ -13,12 +13,27 @@ class Paciente_Activity : AppCompatActivity() {
         @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_paciente2)
+            setContentView(R.layout.activity_paciente)
 
             val pacientes = listOf(
-                Paciente("João Silva", "12-04-2012", "Masculino", "Xique-Xique, Bahia"),
-                Paciente("Maria Oliveira", "23-09-2008", "Feminino", "Osasco, São Paulo"),
-                Paciente("Carlos Pereira", "08-11-1997", "Masculino", "Carapicuiba, São Paulo")
+                Paciente(
+                    nome = "João Silva",
+                    dataNasc = "12-04-2012",
+                    sexo = "Masculino",
+                    localNasc = "Xique-Xique, Bahia"
+                ),
+                Paciente(
+                    nome = "Maria Oliveira",
+                    dataNasc = "23-09-2008",
+                    sexo = "Feminino",
+                    localNasc = "Osasco, São Paulo"
+                ),
+                Paciente(
+                    nome = "Carlos Pereira",
+                    dataNasc = "08-11-1997",
+                    sexo = "Masculino",
+                    localNasc = "Carapicuiba, São Paulo"
+                )
             )
 
             val recyclerView: RecyclerView = findViewById(R.id.rvPacientes)

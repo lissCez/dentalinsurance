@@ -4,16 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:textAlignment="center">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#82B4FF"
+        android:backgroundTint="#82B4FF"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -48,38 +52,136 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:fontFamily="@font/noto_sans_sc"
+                android:paddingStart="20dp"
                 android:text="Calendário"
                 android:textColor="#0066FF"
                 android:textColorLink="#0066FF"
                 android:textSize="24sp" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/tvDetails"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="@string/selecione_uma_data_para_detalhes"
-                android:textSize="18sp" />
-
             <CalendarView
                 android:id="@+id/calendarView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
                 android:backgroundTintMode="multiply"
                 android:foregroundTintMode="multiply"
                 android:unfocusedMonthDateColor="#B3B3B3"
                 android:weekNumberColor="#616161"
                 android:weekSeparatorLineColor="#1E1E1E" />
 
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:text="@string/selecione_uma_data_para_detalhes"
+                android:textSize="18sp" />
+
         </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/noto_sans_sc"
+                        android:lineSpacingExtra="8sp"
+                        android:text="Conscientize-se"
+                        android:textColor="#0066FF"
+                        android:textColorLink="#0066FF"
+                        android:textSize="24sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#FF6052"
+                        android:backgroundTint="#FF6052">
+
+                        <Button
+                            android:id="@+id/btnBlog"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:backgroundTint="#82B4FF"
+                            android:foregroundTint="#82B4FF"
+                            android:text="@string/Blog"
+                            android:textSize="20sp"
+                            app:layout_constraintTop_margin="16dp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#82B4FF"
+                        android:backgroundTint="#82B4FF">
+
+                        <Button
+                            android:id="@+id/btnAboutUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:backgroundTint="#D2D2D2"
+                            android:foregroundTint="#82B4FF"
+                            android:text="@string/aboutus"
+                            android:textSize="20sp"
+                            app:layout_constraintTop_margin="16dp" />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 
